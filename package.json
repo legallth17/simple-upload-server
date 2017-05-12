@@ -1,0 +1,20 @@
+{
+  "name": "simple-upload-server",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "",
+    "npm": ""
+  },
+
+  "dependencies": {
+    "express": "",
+    "fs-extra":"",
+    "serve-index":""
+	},
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
