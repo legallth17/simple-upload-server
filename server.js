@@ -4,7 +4,7 @@ var express = require('express');
 var fs = require('fs-extra');
 var serveIndex = require('serve-index');
 
-var ipaddress = process.env.SERVER_IP || '127.0.0.1';
+var ipaddress = process.env.SERVER_IP || '0.0.0.0';
 var port      = process.env.SERVER_PORT || 8080;
 var fqdn      = process.env.SERVER_FQDN;
 var uploadDir = process.env.UPLOAD_DIR || './data'
