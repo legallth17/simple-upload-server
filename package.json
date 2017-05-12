@@ -8,9 +8,9 @@
   },
 
   "dependencies": {
-    "express": "",
-    "fs-extra":"",
-    "serve-index":""
+    "express": "4.15.2",
+    "fs-extra":"3.0.1",
+    "serve-index":"1.8.0"
 	},
   "devDependencies": {},
   "bundleDependencies": [],
